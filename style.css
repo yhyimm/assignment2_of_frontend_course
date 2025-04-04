@@ -1,0 +1,391 @@
+.navbar
+{
+    display: flex;
+    /* background-color: lightblue; */
+}
+.header
+{
+    display: flex;
+    background-color: aqua;
+    gap: 20px;
+    /* padding: 10px; */
+}
+
+.logo
+{
+    margin-left: 8%;
+    width: 60%;
+
+
+}
+.intro
+{
+    /* margin: 0 auto; */
+    background-color: lightcoral;
+    width: 80%;
+
+}
+.img_intro
+{
+    position: absolute;
+    /* fill the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.text_intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.about
+{
+    /* display: flex; */
+    /* background-color: lightgreen; */
+    gap: 20px;
+    /* padding: 10px; */
+    position: relative;
+    margin-top: 50%;
+    width: 80%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.first_section
+{
+    display: flex;
+}
+.profile-about
+{
+    width: 50%;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    /* background-color: lightblue; */
+}
+.about_description
+{
+    margin-left: 3%;
+}
+
+.profile_grid
+{
+    display: block;
+}
+
+.first_grid
+{
+    display: flex;
+    gap: 20px;
+    /* background-color: lightblue; */
+}
+.second_grid
+{
+    display: flex;
+    gap: 20px;
+    /* background-color: lightblue; */
+}
+.third_grid
+{
+    display: flex;
+    gap: 20px;
+    /* background-color: lightblue; */
+}
+.download-cv-btn
+{
+
+}
+.download_btn
+{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 10px;
+    background: none 0px 0px repeat scroll rgb(255, 48, 91);
+    border-radius: 4px;
+    padding: 10px 24px;
+    transition: 0.3s ease-in-out;
+}
+.hire_btn
+{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 10px;
+    background: none 0px 0px repeat scroll rgb(255, 48, 91);
+    border-radius: 4px;
+    padding: 10px 24px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Services Section */
+
+.upperline
+{
+    background-color: rgb(255, 48, 91);
+    height: 1px;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1%;
+}
+.midline
+{
+    background-color: rgb(255, 48, 91);
+    height: 1px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3%;
+}
+.lowerline
+{
+    background-color: rgb(255, 48, 91);
+    height: 1px;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3%;
+}
+.Services
+{
+    margin-top: 10%;
+    background-color: rgb(231, 228, 229);
+    width: 100%;
+
+
+}
+.service_card
+{
+    /* width: 35%; */
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: sienna;
+    display:flex;
+    margin-bottom: 8%;
+    height: 250px;
+
+
+}
+.service_title
+{
+    /* margin-top: 80%; */
+    /* padding-top: 30px; */
+    text-align: center;
+    /* margin-top: 6%; */
+    padding-top: 30px;
+    font-size: 35px;
+    /* font-style: italic; */
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.service_title_card
+{
+    font-size: 1.5em;
+    color: rgb(3, 0, 1);
+    margin-bottom: 10px;
+}
+.service_card_grid
+{
+    width: 25%;
+}
+
+/* Portfolio Section */
+
+.protfilo_section
+{
+    background-color: rgb(231, 228, 229);
+    width: 80%;
+
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.protfilo_title
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+}
+.protfilo_header
+{
+    text-align: center;
+    margin-top: 3%;
+width: 70%;
+    background-color: rgb(231, 228, 229);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.protfilo_header_text
+{
+    /* text-align: center; */
+
+    display: flex;
+justify-content: center;
+    /* align-content: space-between; */
+    gap: 50px;
+
+}
+.protfilo_card {
+    display: flex;
+    flex-wrap: wrap; /* allows items to wrap to next line */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    background-color: rgb(231, 228, 229);
+    padding: 20px;
+}
+
+.protfilo_img_card {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: subtle shadow */
+    transition: transform 0.3s ease;
+}
+
+.protfilo_img_card:hover {
+    transform: scale(1.05); /* hover zoom effect */
+}
+
+.protfilo_img_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.stats_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .stat_box {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .stat_box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stat_box h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .stat_box p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+/* Feedback Section */
+.feedback_section {
+    text-align: center;
+    padding: 50px 0;
+}
+.feedback_title
+{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.feedback_title_text {
+
+    margin-bottom: 1%;
+}
+
+.feedback_slider {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.feedback_card {
+    display: none;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedback_card.active {
+    display: flex;
+}
+
+.feedback_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback_description {
+    flex: 1;
+}
+
+.feedback_location {
+    color: gray;
+    font-size: 14px;
+}
+
+.feedback_text {
+    font-style: italic;
+    color: #555;
+}
+
+.feedback_rating {
+    color: gold;
+    font-size: 20px;
+}
+
+.feedback_nav {
+    margin-top: 15px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: #bbb;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: red;
+}
