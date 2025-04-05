@@ -6,15 +6,40 @@
 .header
 {
     display: flex;
-    background-color: aqua;
-    gap: 20px;
-    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    /* background-color: rgb(255, 48, 91); */
+    gap: 50px;
+    transition: 0.4s ease-in-out;
+}
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #000;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .logo
 {
     margin-left: 8%;
     width: 60%;
+    color: #ff305b;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+  
 
 
 }
@@ -98,10 +123,7 @@
     gap: 20px;
     /* background-color: lightblue; */
 }
-.download-cv-btn
-{
 
-}
 .download_btn
 {
     color: rgb(255, 255, 255);
@@ -166,7 +188,7 @@
     text-align: center;
     width: 60%;
     margin: 0 auto;
-    background-color: sienna;
+    /* background-color: sienna; */
     display:flex;
     margin-bottom: 8%;
     height: 250px;
